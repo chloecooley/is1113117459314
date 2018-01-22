@@ -1,3 +1,20 @@
 .mainheading{
     text-align: center;
+    color: #339966;
+}
+body {
+    background-color: #ccffe6;
+}
+
+h1 {
+    color:  #99ff66;
+}
+strong {
+    color: #339966;
+}
+img {
+    border-radius: 9px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
 }

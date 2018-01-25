@@ -1,9 +1,8 @@
-.mainheading{
-    text-align: center;
-    color: #339966;
-}
+
 body {
-    background-image: url("bg.jpg");
+    background-image: url("bg3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1 {
@@ -17,4 +16,8 @@ img {
     display: block;
     margin-left:auto;
     margin-right: auto;
+}
+.mainheading{
+    text-align: center;
+    color: #339966;
 }

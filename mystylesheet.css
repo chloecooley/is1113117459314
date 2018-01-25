@@ -2,22 +2,28 @@
 body {
     background-image: url("bg3.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 h1 {
     color:  #99ff66;
 }
 strong {
-    color: #339966;
+    color: #ffffff;
 }
+p{
+    font-size:40px;
+    font-family: "Times New Roman", serif;
+    text-align: center}
 img {
     border-radius: 9px;
     display: block;
     margin-left:auto;
     margin-right: auto;
+  
 }
 .mainheading{
     text-align: center;
     color: #339966;
+    font-size: 55px;
 }

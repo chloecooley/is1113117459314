@@ -22,8 +22,17 @@ img {
     margin-right: auto;
   
 }
+li {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Times New Roman", serif;
+    
+}
 .mainheading{
     text-align: center;
     color: #339966;
     font-size: 55px;
+}
+a{ 
+    font-size:40px;
 }

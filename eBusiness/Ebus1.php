@@ -23,11 +23,20 @@ session_start();
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
             </label>
-            
+            <br/>
+             <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail @ 200
+            </label>
             <br/>
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
+            </label>
+            <br/>
+             <label for="cloudservices">
+                <input type="radio" id="cloudservices" name="product" onClick="disablebtnProceed()"/>
+                Cloud Services @ $500
             </label>
             
             <br/>

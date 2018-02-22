@@ -1,5 +1,11 @@
 /* global $ */
 
+function validateDetails(){
+    
+    validateNameDetails();
+    
+}
+
 function validateNameDetails(){
     var name;
     
@@ -10,11 +16,11 @@ function validateNameDetails(){
     }
     
     else if (String(name).length < 4){
-        alert("Please make sure your full name is entered.")
+        alert("Please make sure your full name is entered.");
     }
     
     else{
-        enablebtnPurchase();
+        validateEmailDetails();
     }
 } 
 
@@ -28,11 +34,11 @@ function validateEmailDetails(){
     }
     
     else if (String(email).length <10){
-        alert("Please make sure your email is correct.")
+        alert("Please make sure your email is correct.");
     }
     
     else{
-        enablebtnPurchase();
+        validatePinDetails();
     }
 } 
 
@@ -46,7 +52,7 @@ function validatePinDetails(){
     }
     
     else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate")
+        alert("Please make sure your PIN is accurate");
     }
     
     else{
@@ -59,5 +65,5 @@ function enablebtnPurchase(){
 }
 
 function disablebtnPurchase(){
-    $('#btnPurchase').prop('disabled', true)
+    $('#btnPurchase').prop('disabled', true);
 }

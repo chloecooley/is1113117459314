@@ -9,10 +9,10 @@ function calcSub() {
     else if (document.getElementById('gmail').checked){
         argSubTotal=200;
     }
-    else if (document.getElementById('salesforce').checked){
+    else if (document.getElementById('aws').checked){
         argSubTotal=300;
     }
-      else if (document.getElementById('cloudservices').checked){
+     else if (document.getElementById('cloudservices').checked){
         argSubTotal=500;
     }
     display(argSubTotal);

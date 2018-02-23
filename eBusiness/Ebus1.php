@@ -65,11 +65,13 @@ session_start();
             <br/>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
+            <br/>
         </form>
         <br/>
-        <button onClick="calcSub()">Calculate Costs</button>
+        <br/>
+        <button onClick="calcDisVatTotal()">Calculate Costs</button>
        <!-- Refreshes page-->
+       <br/>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>

@@ -18,12 +18,15 @@ session_start();
             <label for="user_name">Name:
             <input type="text" id="user_name" name="user_name" placeholder="Name">
             </label>
+            <br/>
             <label for="user_email">Email:
             <input type="text" id="user_email" name="user_email" placeholder="Email">
             </label>
+            <br/>
             <label for="user_pin">PIN:
             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
             </label>
+            <br/>
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         

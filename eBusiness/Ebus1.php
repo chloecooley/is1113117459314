@@ -10,6 +10,7 @@ session_start();
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+       
     </head>
     
     <body>
@@ -24,19 +25,18 @@ session_start();
                 SalesForce @ $100
             </label>
             <br/>
-             <label for="gmail">
-                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-                Gmail @ 200
-            </label>
+            <label for="cloudservices">
+                <input type="radio" id="cloudservices" name="product" onClick="disablebtnProceed()"/>
+                Cloud Services @ $200
             <br/>
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
             </label>
             <br/>
-             <label for="cloudservices">
-                <input type="radio" id="cloudservices" name="product" onClick="disablebtnProceed()"/>
-                Cloud Services @ $500
+             <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail @ 400
             </label>
             
             <br/>
@@ -45,7 +45,17 @@ session_start();
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
             </label>
-            
+           <br/>
+            <label for=discount>
+                Discount
+                <input type="text" id="discount" value="0.00" readonly/>
+            </label>
+            <br/>
+            <label for=vat>
+                VAT
+                <input type="text" id="vat" value="0.00" readonly/>
+            </label>
+            <br/>
             <br/>
             <label for="total">
                 Total

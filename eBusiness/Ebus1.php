@@ -25,55 +25,59 @@ session_start();
                 SalesForce @ $100
             </label>
             <br/>
+            
             <label for="cloudservices">
                 <input type="radio" id="cloudservices" name="product" onClick="disablebtnProceed()"/>
                 Cloud Services @ $200
+            </label>
             <br/>
+            
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
             </label>
             <br/>
+            
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ 400
             </label>
-            
             <br/>
+           
             <br/>
             <label for=subtotal>
                 Sub Total
                 <input type="text" id="subtotal" name='subtotal' value="0.00" readonly/>
             </label>
+            
            <br/>
             <label for=discount>
                 Discount
                 <input type="text" id="discount" name='discount' value="0.00" readonly/>
             </label>
+            
             <br/>
             <label for=vat>
                 VAT
                 <input type="text" id="vat" name='vat' value="0.00" readonly/>
             </label>
+            
             <br/>
             <br/>
             <label for="total">
                 Total
-                <input type="text" id="total" name="total" value="0.00" readonly/>
+                <input type="text" id="total" name='total' value="0.00" readonly/>
             </label>
             <br/>
+          <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <br/>
-            
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
-            <br/>
+             
         </form>
-        
+          
         <br/>
         <br/>
-        
-        <button onClick="calcDisVatTotal(parmSubTotal)">Calculate Costs</button>
-        <br/>
+         <button onClick="calcSub()">Calculate Costs</button>
+
        <!-- Refreshes page-->
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>

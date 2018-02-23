@@ -42,6 +42,9 @@ session_start();
        //set session variables
  
         
+        $_SESSION["subtotal"]= $_POST["subtotal"];
+        $_SESSION["discount"]= $_POST["discount"];
+        $_SESSION["vat"]= $_POST["vat"];
         $_SESSION["total"]= $_POST["total"];
         ?>
     </body>

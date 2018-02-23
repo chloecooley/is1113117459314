@@ -43,17 +43,17 @@ session_start();
             <br/>
             <label for=subtotal>
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name='subtotal' value="0.00" readonly/>
             </label>
            <br/>
             <label for=discount>
                 Discount
-                <input type="text" id="discount" value="0.00" readonly/>
+                <input type="text" id="discount" name='discount' value="0.00" readonly/>
             </label>
             <br/>
             <label for=vat>
                 VAT
-                <input type="text" id="vat" value="0.00" readonly/>
+                <input type="text" id="vat" name='vat' value="0.00" readonly/>
             </label>
             <br/>
             <br/>
@@ -61,17 +61,20 @@ session_start();
                 Total
                 <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
-            
+            <br/>
             <br/>
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            
             <br/>
         </form>
+        
         <br/>
         <br/>
-        <button onClick="calcDisVatTotal()">Calculate Costs</button>
+        
+        <button onClick="calcDisVatTotal(parmSubTotal)">Calculate Costs</button>
+        <br/>
        <!-- Refreshes page-->
-       <br/>
         <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>

@@ -15,30 +15,30 @@ function calcSub() {
      else if (document.getElementById('gmail').checked){
         argSubTotal=400;
     }
-    display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
 
-function calcDisVatTotal(){
+function calcDisVatTotal(parmSubTotal){
     //Declare variables
-    var subTotal
-    var vatAmt
-    var discountAmt
-    var totalPrice
+    var subTotal;
+    var vatAmt;
+    var discountAmt;
+    var totalPrice;
     
     //Pass parameter value into the variable
-    subTotal = parmSubTotal; 
+    subTotal =parmSubTotal; 
     
     //Calculate the discount amount
-    discountAmt= (subTotal * 0.05)
+    discountAmt= (subTotal * 0.05);
     
     //Calculate the vat @ 10%
-    vatAmt = (subTotal - discountAmt) * 0.10
+    vatAmt = (subTotal - discountAmt) * 0.10;
     
     //Calculate total price
-    totalPrice = subTotal - discountAmt + vatAmt
+    totalPrice = (subTotal - discountAmt + vatAmt);
     
     //display figures in the display() function
-    display(subTotal, discountAmt, vatAmt, totalPrice)
+    display(subTotal, discountAmt, vatAmt, totalPrice);
 }
 
 //Function to display calculations 

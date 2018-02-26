@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
+
 <?php
 session_start();
 ?>

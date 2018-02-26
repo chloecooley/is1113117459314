@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
+
 <?php
 session_start();
 ?>
@@ -15,7 +17,7 @@ session_start();
     
     <body>
         
-        <h4>Select a Product</h4>
+        <h1>Select a Product</h1>
         
         <br/>
         
@@ -40,7 +42,7 @@ session_start();
             
              <label for="gmail">
                 <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-                Gmail @ 400
+                Gmail @ $400
             </label>
             <br/>
            

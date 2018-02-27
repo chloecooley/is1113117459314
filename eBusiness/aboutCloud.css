@@ -1,0 +1,21 @@
+#section1{
+    background-color:rgb(146, 209, 211)
+}
+#section2{
+    background-color: rgb(247, 143, 69)
+}
+#section3{
+    background-color: rgb(247, 101, 116)
+}
+#section4{
+    background-color:rgb(142,226,170)
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+button {
+    size: 30px;
+}

@@ -10,7 +10,10 @@ session_start();
         <title>RECEIPT</title>
     </head>
     <body>
-        <h4>RECEIPT</h4>
+        
+        <h1>RECEIPT</h1>
+        
+   <form>
    
     <?php
     $_SESSION["user_name"]=$_POST["user_name"];
@@ -23,5 +26,8 @@ session_start();
     echo "VAT: ".$_SESSION["vat"] . "<br/>";
     echo "Total: ".$_SESSION["total"] . "<br/>";
     ?>
+   
+    </form>
+    
     </body>
 </html>

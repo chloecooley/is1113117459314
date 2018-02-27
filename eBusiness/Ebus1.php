@@ -21,6 +21,8 @@ session_start();
         
         <br/>
         
+        <!-- Creating labels and radio buttons for products-->
+        <!-- Sending info to Ebus2-->
         <form method="POST" action="Ebus2.php">
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -46,6 +48,7 @@ session_start();
             </label>
             <br/>
            
+           <!--Creating labels and readonly inputs for subtotal/vat/discount/total with values preset at 0-->
             <br/>
             <label for=subtotal>
                 Sub Total
@@ -71,6 +74,7 @@ session_start();
                 <input type="text" id="total" name='total' value="0.00" readonly/>
             </label>
             <br/>
+            <!--Enusre that btnProceed is disabled until Calculate Costs is clicked-->
           <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             <br/>
              
@@ -78,6 +82,7 @@ session_start();
           
         <br/>
         <br/>
+        <!--Call calcSub() when Calculate Costs is clicked-->
          <button onClick="calcSub()">Calculate Costs</button>
 
        <!-- Refreshes page-->

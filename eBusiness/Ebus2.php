@@ -17,7 +17,10 @@ session_start();
     <body>
         <h4>Please enter your payment details</h4>
         
+        <!-- Sending info to Ebus3-->
         <form method="POST" action="Ebus3.php">
+          
+          <!--Creatubg labels and text fields for user name/email/ and pin -->
             <label for="user_name">Name:
             <input type="text" id="user_name" name="user_name" placeholder="Name">
             </label>
@@ -30,25 +33,23 @@ session_start();
             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
             </label>
             <br/>
+            <!--BtnPurchase disabled until Validate is clicked -->
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         
         
         <br/>
+        <!--When clicked call ValidateDetails() and if it is not incorrect activate btnProceed -->
         <button onClick="validateDetails()">Validate</button>
         
-       
-      
-        <!--email and name needed-->
-       
        <?php
        //set session variables
  
-        
         $_SESSION["subtotal"]= $_POST["subtotal"];
         $_SESSION["discount"]= $_POST["discount"];
         $_SESSION["vat"]= $_POST["vat"];
         $_SESSION["total"]= $_POST["total"];
         ?>
+        
     </body>
-    </html>
+</html>

@@ -15,7 +15,7 @@ session_start();
        
     </head>
     <body>
-        <h4>Please enter your payment details</h4>
+        <h1>Please enter your payment details</h1>
         
         <!-- Sending info to Ebus3-->
         <form method="POST" action="Ebus3.php">
@@ -41,6 +41,10 @@ session_start();
         <br/>
         <!--When clicked call ValidateDetails() and if it is not incorrect activate btnProceed -->
         <button onClick="validateDetails()">Validate</button>
+        
+        <br/>
+        <br/>
+        <a href="../homepage.html" class="btn-btn-success">Home</a>
         
        <?php
        //set session variables

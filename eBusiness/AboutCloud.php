@@ -34,7 +34,8 @@ session_start();
     
     <!--Adding section to page piling--> 
        <div id="pagepiling">
-	<div class="section"  id= "section1">Software as a Service (SaaS) - Salesforce
+    
+	<div class="section"  id= "section1">Software as a Service (SaaS) - <a href="https://www.salesforce.com/eu/?ir=1" target="_blank">Salesforce</a>
 	
     <!--Info about salesforce-->
     <p>Salesforce is the primary enterprise offering within the Salesforce platform.</p>
@@ -49,12 +50,12 @@ session_start();
     <p>As of early 2016, it is one of the most highly valued American cloud computing companies with a market capitalization above $61 billion.</p>
     <p>In August 2017, Salesforce announced that it had reached the $10 billion revenue run rate becoming the first enterprise cloud company to do so. 
     Its common stock is listed on the New York Stock Exchange with the symbol CRM and is a constituent of the S&P 500 Index</p>
-  
+    <img src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" height="250px" width="400px"></img>
   </div>
   
   
 
-	<div class="section"  id= "section2">Platform as a Service (PaaS) - Cloud 9
+	<div class="section"  id= "section2">Platform as a Service (PaaS) - <a href="c9.io" target="_blank">Cloud 9</a>
 	
     <!--Info about cloud9-->
     <p>Platform as a Service (PaaS) or application platform as a Service (aPaaS) or platform base service is a category of cloud computing services that provides a platform allowing
@@ -67,25 +68,32 @@ session_start();
     It can also be useful in situations where multiple developers are working on a single project involving parties who are not located nearby.</p>
     <p>One disadvantage of PaaS offerings is that developers may not be able to use a full range of conventional tools (e.g. relational databases, 
     with unrestricted joins). Another possible disadvantage is being locked in to a certain platform. However, most PaaSes are relatively lock-in free</p>
+    <img src="https://www.vectorlogo.zone/logos/c9/c9-card.png"></img>
+    </div> 
     
-    </div>
-    
-    
-    <div class="section"  id= "section3">Infrastructure as a service (IaaS) - Amazon
+     <div class="section"  id= "section3">Infrastructure as a service (IaaS) - <a href="https://aws.amazon.com/about-aws/" target="_blank">Amazon</a>
    
     <p>nfrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet. 
     IaaS is one of the three main categories of cloud computing services, alongside software as a service (SaaS) and platform as a service (PaaS).</p> 
     <p>Provides users with processing, storage, networks, and other computing infrastructure resources. </p>
     <p>The user does not manage or control the infrastructure, but has control over operating systems, applications, and programming frameworks. </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" height="200px" width="400px"></img>
     
     </div>
-    
-     <div class="section"  id= "section3">Communication as a Service (CaaS) - Gmail
+   
 
-
-         
-         
-         
+     <div class="section"  id= "section3">Communication as a Service (CaaS) - <a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a>
+    <p>Communications as a service (CaaS) is a collection of different vendor services that facilitate business communications.
+    Organizations may use these and similar services to lower costs and increase efficiency for business processes involving audio or video telecommunications.</p> 
+    <p>The core concept of CaaS is that accessing these services over the internet is extremely convenient. The client businesses do not have to worry about 
+    maintaining servers and connections, uploading different kinds of content or doing all of the administrative work involved in keeping a communications platform functional.</p>
+    <img src="http://www.stickpng.com/assets/images/5847fafdcef1014c0b5e48ce.png" height="250px" width="260px"></img>
+         </br>
+         </br>
+         </br>
+         <a href="Ebus1.php" class="btn-btn-dark" font-size="30px">Buy One of these Products</a>
+         <br/>
+         <a href="../homepage.html" class="btn-btn-success">Home</a>
      </div>
 </body>
 </html>

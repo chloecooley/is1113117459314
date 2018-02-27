@@ -87,5 +87,9 @@ session_start();
 
        <!-- Refreshes page-->
         <a role="button" href="Ebus1.php">Clear Choice</a>
+        
+        <br/>
+        <br/>
+        <a href="../homepage.html" class="btn-btn-success">Home</a>
     </body>
 </html>

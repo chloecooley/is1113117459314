@@ -1,3 +1,4 @@
+<!-- Refer to stylesheet-->
 <link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
 
 <?php

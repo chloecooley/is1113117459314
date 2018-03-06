@@ -36,6 +36,11 @@ session_start();
     <!--Adding section to page piling--> 
        <div id="pagepiling">
     <div class="section" id="section1">
+        <!-- https://pixabay.com/en/photos/storm%20clouds/?image_type=illustration <- Adjusted that image-->
+    background="Clouds.png"
+    </div>
+    
+    <div class="section" id="section1">
     <h1>Clouds of Code</h1>
     <h2>Where we are based:</h2>
     <p>We are based in South Cork and have small offices in Dublin, Mayo, Waterford, and Sligo.</p>

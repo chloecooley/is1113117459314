@@ -8,6 +8,13 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+                  
         <title>RECEIPT</title>
     </head>
     <body>
@@ -33,6 +40,7 @@ session_start();
    <br/>
    <br/>
    <br/>
+    <!-- Link back to homepage -->
     <a href="../homepage.html" class="btn-btn-success">Home</a>
     </body>
 </html>

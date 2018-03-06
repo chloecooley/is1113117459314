@@ -5,7 +5,7 @@ function validateDetails(){
     validateNameDetails();
     
 }
-
+//Validate name details and give alerts if invalid input is entered
 function validateNameDetails(){
     var name;
     
@@ -24,6 +24,7 @@ function validateNameDetails(){
     }
 } 
 
+//Validate email details and give alerts if invalid input is entered
 function validateEmailDetails(){
     var email;
     
@@ -33,7 +34,7 @@ function validateEmailDetails(){
         alert("Please enter your email");
     }
     
-    else if (String(email).length <10){
+    else if (String(email).length <5){
         alert("Please make sure your email is correct.");
     }
     
@@ -42,6 +43,7 @@ function validateEmailDetails(){
     }
 } 
 
+//Validate pin details and give alerts if invalid input is entered
 function validatePinDetails(){
     var pin;
     
@@ -60,10 +62,12 @@ function validatePinDetails(){
     }
 } 
 
+//Enable btnPurchase when validation on the above is true
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
 }
 
+//Disable btnPurchase when validation on the above is false
 function disablebtnPurchase(){
     $('#btnPurchase').prop('disabled', true);
 }

@@ -91,6 +91,7 @@ session_start();
         
         <br/>
         <br/>
+        <!-- Link back to homepage -->
         <a href="../homepage.html" class="btn-btn-success">Home</a>
     </body>
 </html>

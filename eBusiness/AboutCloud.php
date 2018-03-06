@@ -37,7 +37,7 @@ session_start();
        <div id="pagepiling">
     <div class="section" id="section1">
         <!-- https://pixabay.com/en/photos/storm%20clouds/?image_type=illustration <- Adjusted that image-->
-    <p></p>
+    
     </div>
     
     <div class="section" id="section2">

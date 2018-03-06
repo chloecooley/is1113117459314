@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <!-- Refer to stylesheet-->
 <link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
 
@@ -5,18 +7,15 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-<html>
+
+<html lang="en">
+  
     <head>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-                  
+         <meta charset="utf-8"/>
+     
         <title>RECEIPT</title>
     </head>
+   
     <body>
         
         <h1>RECEIPT</h1>
@@ -40,7 +39,9 @@ session_start();
    <br/>
    <br/>
    <br/>
+   
     <!-- Link back to homepage -->
     <a href="../homepage.html" class="btn-btn-success">Home</a>
+   
     </body>
 </html>

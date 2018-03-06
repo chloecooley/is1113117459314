@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- Refer to stylesheet-->
 <link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
 
@@ -5,14 +6,15 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-<html>
+<html lang="en">
+  
     <head>
+         <meta charset="utf-8"/>
         <title>Select Product</title>
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
+        <script src="cost_calc.js"></script>
        
     </head>
     
@@ -53,26 +55,26 @@ session_start();
             <br/>
             <label for=subtotal>
                 Sub Total
-                <input type="text" id="subtotal" name='subtotal' value="0.00"  width="75px" readonly/>
+                <input type="text" id="subtotal" name='subtotal' value="0.00"   readonly/>
             </label>
             
            <br/>
             <label for=discount>
                 Discount
-                <input type="text" id="discount" name='discount' value="0.00" width="75px" readonly/>
+                <input type="text" id="discount" name='discount' value="0.00"  readonly/>
             </label>
             
             <br/>
             <label for=vat>
                 VAT
-                <input type="text" id="vat" name='vat' value="0.00" width="75px" readonly/>
+                <input type="text" id="vat" name='vat' value="0.00"  readonly/>
             </label>
             
             <br/>
             <br/>
             <label for="total">
                 Total
-                <input type="text" id="total" name='total' value="0.00" width="75px" readonly/>
+                <input type="text" id="total" name='total' value="0.00" readonly/>
             </label>
             <br/>
             <!--Enusre that btnProceed is disabled until Calculate Costs is clicked-->

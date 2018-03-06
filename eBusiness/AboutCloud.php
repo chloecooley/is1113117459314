@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- Refer to stylesheet-->
 <link rel="stylesheet" href="aboutCloud.css" type="text/css"/>
 
@@ -5,9 +6,10 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-<html>
+<html lang="en">
+  
     <head>
+         <meta charset="utf-8"/>
         <title>About Cloud</title>
         <!--Adding Page Pilling-->
        
@@ -19,7 +21,7 @@ session_start();
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
 
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
             
         <script type ="text/javascript">
         $(document).ready(function() {
@@ -35,6 +37,7 @@ session_start();
     
     <!--Adding section to page piling--> 
        <div id="pagepiling">
+   
     <div class="section" id="section1">
         <!-- https://pixabay.com/en/photos/storm%20clouds/?image_type=illustration <- Adjusted that image-->
     
@@ -68,7 +71,7 @@ session_start();
     user to join the conversation about their company on social networking websites, provides analytical tools and other services including email alert, 
     Google search, and access to customers' entitlement and contracts.</p>
 
-    <img src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" height="250px" width="400px"></img>
+    <img alt="Salesforce Logo" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" height="250px" width="400px">
     </div>
   
   
@@ -87,7 +90,7 @@ session_start();
     It can also be useful in situations where multiple developers are working on a single project involving parties who are not located nearby.</p>
     <p>One disadvantage of PaaS offerings is that developers may not be able to use a full range of conventional tools (e.g. relational databases, 
     with unrestricted joins). Another possible disadvantage is being locked in to a certain platform. However, most PaaSes are relatively lock-in free</p>
-    <img src="https://www.vectorlogo.zone/logos/c9/c9-card.png"></img>
+    <img alt="Cloud9 Logo" src="https://www.vectorlogo.zone/logos/c9/c9-card.png">
     </div> 
     
      <div class="section"  id= "section5">Infrastructure as a service (IaaS) - <a href="https://aws.amazon.com/about-aws/" target="_blank">Amazon Web Services (AWS)</a>
@@ -103,7 +106,7 @@ session_start();
     increased flexibility, scalability and reliability</p>
     <p>The AWS Cloud provides a broad set of infrastructure services, such as computing power, storage options, networking and databases, delivered as a utility: 
     on-demand, available in seconds, with pay-as-you-go pricing.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" height="200px" width="400px"></img>
+    <img alt="AWS Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" height="200px" width="400px">
     
     </div>
    
@@ -121,15 +124,16 @@ session_start();
     the ability to search for specific messages. The Gmail program also automatically organizes successively related messages into a conversational thread.</p>
     <p>According to Google co-founder and president Larry Page, the company was inspired to create Gmail because of a user's letter complaining about problems with existing 
     Web e-mail services, such as the constant need to delete messages to stay within storage limits, and the lack of any searching ability.</p>
-    <img src="http://www.stickpng.com/assets/images/5847fafdcef1014c0b5e48ce.png" height="250px" width="260px"></img>
-         </br>
-         </br>
-         </br>
+    <img alt="Gmail Logo" src="http://www.stickpng.com/assets/images/5847fafdcef1014c0b5e48ce.png" height="250px" width="260px">
+         <br/>
+         <br/>
+         <br/>
            <!-- Link back to eBusiness -->
-         <a href="Ebus1.php" class="btn-btn-dark" font-size="30px">Buy One of these Products</a>
+         <a href="Ebus1.php" class="btn-btn-dark">Buy One of these Products</a>
          <br/>
            <!-- Link back to homepage -->
          <a href="../homepage.html" class="btn-btn-success">Home</a>
+     </div>
      </div>
 </body>
 </html>

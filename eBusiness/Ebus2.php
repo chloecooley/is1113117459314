@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- Refer to stylesheet-->
 <link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
 
@@ -5,9 +6,12 @@
 session_start();
 ?>
 
-<!DOCTYPE html>
-<html>
+
+<html lang="en">
+  
     <head>
+         <meta charset="utf-8"/>
+         
         <title>Enter Details</title>
         
         <!-- jQuery -->

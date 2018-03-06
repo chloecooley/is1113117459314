@@ -1,5 +1,7 @@
 #section1{
-    background-image: url("Clouds.png")
+    background-image:url("Clouds.png");
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 #section2{
     background-color:rgb(146, 209, 211)

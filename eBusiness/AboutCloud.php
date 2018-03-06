@@ -40,7 +40,7 @@ session_start();
     <p></p>
     </div>
     
-    <div class="section" id="section1">
+    <div class="section" id="section2">
     <h1>Clouds of Code</h1>
     <h2>Where we are based:</h2>
     <p>We are based in South Cork and have small offices in Dublin, Mayo, Waterford, and Sligo.</p>
@@ -52,7 +52,7 @@ session_start();
     <p>Email us at: CloudsOfCode@*******.***</p>
     </div>
 	
-	<div class="section"  id= "section2">Software as a Service (SaaS) - <a href="https://www.salesforce.com/eu/?ir=1" target="_blank">Salesforce</a>
+	<div class="section"  id= "section3">Software as a Service (SaaS) - <a href="https://www.salesforce.com/eu/?ir=1" target="_blank">Salesforce</a>
 	
     <!--Info about salesforce-->
     <!--Info gotten from -> http://searchcloudcomputing.techtarget.com/definition/Software-as-a-Service -->
@@ -73,7 +73,7 @@ session_start();
   
   
 
-	<div class="section"  id= "section3">Platform as a Service (PaaS) - <a href="c9.io" target="_blank">Cloud 9</a>
+	<div class="section"  id= "section4">Platform as a Service (PaaS) - <a href="c9.io" target="_blank">Cloud 9</a>
 	
     <!--Info about cloud9-->
     <!--Info gotten from -> https://en.wikipedia.org/wiki/Platform_as_a_service -->
@@ -90,7 +90,7 @@ session_start();
     <img src="https://www.vectorlogo.zone/logos/c9/c9-card.png"></img>
     </div> 
     
-     <div class="section"  id= "section4">Infrastructure as a service (IaaS) - <a href="https://aws.amazon.com/about-aws/" target="_blank">Amazon Web Services (AWS)</a>
+     <div class="section"  id= "section5">Infrastructure as a service (IaaS) - <a href="https://aws.amazon.com/about-aws/" target="_blank">Amazon Web Services (AWS)</a>
     <!--Info gotten from -> http://searchcloudcomputing.techtarget.com/definition/Infrastructure-as-a-Service-IaaS -->
     <p>Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet. 
     IaaS is one of the three main categories of cloud computing services, alongside software as a service (SaaS) and platform as a service (PaaS).</p> 
@@ -108,7 +108,7 @@ session_start();
     </div>
    
 
-     <div class="section"  id= "section5">Communication as a Service (CaaS) - <a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a>
+     <div class="section"  id= "section6">Communication as a Service (CaaS) - <a href="https://www.google.com/gmail/about/" target="_blank">Gmail</a>
     <!--Info gotten from -> http://whatis.techtarget.com/definition/Communications-as-a-Service-CaaS -->
     <p>Communications as a Service (CaaS) is an outsourced enterprise communications solution that can be leased from a single vendor. Such communications can include voice over IP
     (VoIP or Internet telephony), instant messaging (IM), collaboration and videoconference applications using fixed and mobile devices. CaaS has evolved along the same lines as 

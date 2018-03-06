@@ -35,7 +35,7 @@ session_start();
     
     <!--Adding section to page piling--> 
        <div id="pagepiling">
-    <div class="section" id="section1">About Us:
+    <div class="section" id="section1">
     <h1>Clouds of Code</h1>
     <h2>Where we are based:</h2>
     <p>We are based in South Cork and have small offices in Dublin, Mayo, Waterford, and Sligo.</p>
@@ -120,8 +120,10 @@ session_start();
          </br>
          </br>
          </br>
+           <!-- Link back to eBusiness -->
          <a href="Ebus1.php" class="btn-btn-dark" font-size="30px">Buy One of these Products</a>
          <br/>
+           <!-- Link back to homepage -->
          <a href="../homepage.html" class="btn-btn-success">Home</a>
      </div>
 </body>

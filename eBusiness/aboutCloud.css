@@ -1,5 +1,5 @@
 #section1{
-    background-image: "Clouds.png"
+    background-image: url("Clouds.png")
 }
 #section2{
     background-color:rgb(146, 209, 211)

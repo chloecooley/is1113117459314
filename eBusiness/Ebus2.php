@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- Refer to stylesheet-->
-<link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
 
 <?php
 session_start();
@@ -11,7 +9,9 @@ session_start();
   
     <head>
          <meta charset="utf-8"/>
-         
+         <!-- Refer to stylesheet-->
+        <link rel="stylesheet" href="ebusinessstylesheet.css" type="text/css"/>
+
         <title>Enter Details</title>
         
         <!-- jQuery -->

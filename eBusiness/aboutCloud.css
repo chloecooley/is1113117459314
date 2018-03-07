@@ -1,5 +1,5 @@
 #section1{
-    background-image:url("Clouds.png");
+    background:url("Clouds.png");
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;

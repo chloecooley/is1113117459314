@@ -23,7 +23,7 @@ session_start();
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
             
-        <script type ="text/javascript">
+        <script>
         $(document).ready(function() {
 	    $('#pagepiling').pagepiling();
         });
@@ -38,7 +38,7 @@ session_start();
     <!--Adding section to page piling--> 
        <div id="pagepiling">
    
-    <div class="section" id="section1"  background-image="Clouds.png">
+    <div class="section" id="section1">
         <!-- https://pixabay.com/en/photos/storm%20clouds/?image_type=illustration <- Adjusted that image-->
        
     </div>
@@ -71,7 +71,7 @@ session_start();
     user to join the conversation about their company on social networking websites, provides analytical tools and other services including email alert, 
     Google search, and access to customers' entitlement and contracts.</p>
 
-    <img style="width:400px;height:250px;"alt="Salesforce Logo" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
+    <img style="width:400px;height:250px;" alt="Salesforce Logo" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
     </div>
   
   

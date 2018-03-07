@@ -38,9 +38,9 @@ session_start();
     <!--Adding section to page piling--> 
        <div id="pagepiling">
    
-    <div class="section" id="section1">
+    <div class="section" id="section1"  background-image="Clouds.png">
         <!-- https://pixabay.com/en/photos/storm%20clouds/?image_type=illustration <- Adjusted that image-->
-    
+       
     </div>
     
     <div class="section" id="section2">
@@ -71,7 +71,7 @@ session_start();
     user to join the conversation about their company on social networking websites, provides analytical tools and other services including email alert, 
     Google search, and access to customers' entitlement and contracts.</p>
 
-    <img alt="Salesforce Logo" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" height="250px" width="400px">
+    <img style="width:400px;height:250px;"alt="Salesforce Logo" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
     </div>
   
   
@@ -106,7 +106,7 @@ session_start();
     increased flexibility, scalability and reliability</p>
     <p>The AWS Cloud provides a broad set of infrastructure services, such as computing power, storage options, networking and databases, delivered as a utility: 
     on-demand, available in seconds, with pay-as-you-go pricing.</p>
-    <img alt="AWS Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" height="200px" width="400px">
+    <img style="width:400px;height:200px;" alt="AWS Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" >
     
     </div>
    
@@ -124,7 +124,7 @@ session_start();
     the ability to search for specific messages. The Gmail program also automatically organizes successively related messages into a conversational thread.</p>
     <p>According to Google co-founder and president Larry Page, the company was inspired to create Gmail because of a user's letter complaining about problems with existing 
     Web e-mail services, such as the constant need to delete messages to stay within storage limits, and the lack of any searching ability.</p>
-    <img alt="Gmail Logo" src="http://www.stickpng.com/assets/images/5847fafdcef1014c0b5e48ce.png" height="250px" width="260px">
+    <img style="width:260px;height:250px;" alt="Gmail Logo" src="http://www.stickpng.com/assets/images/5847fafdcef1014c0b5e48ce.png">
          <br/>
          <br/>
          <br/>

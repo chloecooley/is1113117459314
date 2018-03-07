@@ -4,26 +4,33 @@
     background-position: center;
     background-size:cover;
 }
+
 #section2{
     background-color:rgb(146, 209, 211)
 }
+
 #section3{
     background-color: rgb(247, 143, 69)
 }
+
 #section4{
-    background-color: rgb(247, 101, 116)
+    background-color:rgb(249, 147, 157)
 }
+
 #section5{
     background-color:rgb(142, 226, 170)
 }
+
 #section6{
     background-color:rgb(255, 153, 102)
 }
+
 .section{
     text-align: center;
     color: white;
     font-size: 20px;
 }
+
 button {
     size: 30px;
 }

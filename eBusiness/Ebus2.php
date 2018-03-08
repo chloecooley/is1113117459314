@@ -35,11 +35,11 @@ session_start();
             </label>
             <br/>
             <label for="card_number">Card Number:
-            <input type="number" id="card_number" name="card_number" placeholder="Card Number" maxlength="16">
+            <input type="text" id="card_number" name="card_number" placeholder="Card Number" maxlength="16">
             </label>
             <br/>
             <label for="cvv">CVV:
-            <input type="number" id="cvv" name="cvv" placeholder="CVV" maxlength="3">
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" maxlength="3">
             </label>
             <br/>
             <label for="user_pin">PIN:

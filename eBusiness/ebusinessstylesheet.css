@@ -23,3 +23,6 @@ a{
 input[type=text]{
     font-size: 27px;
 }
+input[type=password]{
+    font-size: 27px;
+}

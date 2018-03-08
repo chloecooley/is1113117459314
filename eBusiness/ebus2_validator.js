@@ -39,7 +39,7 @@ function validateEmailDetails(){
     }
     
     else{
-        validatePinDetails();
+        validateCardDetails();
     }
 } 
 

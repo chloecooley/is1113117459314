@@ -21,7 +21,35 @@ session_start();
     </head>
     
     <body>
+         <ul>
         
+         <li class="mainNav"><a href="../homepage.html">Home</a></li>
+         <li class="dropdown">
+         <a href="javascript:void(0)" class="dropbtn">Curriculum Vitae</a>
+         <div class="dropdown-content">
+         <a href="CV/cv_page1.html">Bio</a>
+         <a href="CV/cv_page2.html">Educationl Details</a>
+         <a href="CV/cv_page3.html">Work Experience</a>
+        
+         </li>
+        </div>
+        
+         <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Interests</a>
+        <div class="dropdown-content">
+        <a href="Interests/sports.html">Sports</a>
+        <a href="Interests/travel.html">Travel</a>
+        </div>
+         </li>
+         
+          <li class="mainNav">
+         <a href="AboutCloud.html">About Clouds of Code</a>
+        </li>
+        <li class="mainNav"><a href="Ebus1.php">eBusiness</a></li>
+        <li class="mainNav"> <a href="https://github.com/chloecooley" target="_blank">GitHub Account</a></li>
+        <li class="mainNav"> <a href="https://github.com/chloecooley/is1113117459314/graphs/commit-activity" target="_blank">Commit Activity</a></li>
+        <li class="mainNav"> <a href="https://is1113117459314.herokuapp.com/" target="_blank">Heroku App</a></li>
+       </ul>
         <h1>Select a Product</h1>
         
         <br/>

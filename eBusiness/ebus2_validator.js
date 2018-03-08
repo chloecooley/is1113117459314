@@ -44,6 +44,44 @@ function validateEmailDetails(){
 } 
 
 //Validate pin details and give alerts if invalid input is entered
+function validateCardDetails(){
+    var cardnum;
+    
+    cardnum= document.getElementById("card_number").value;
+    
+    if (cardnum ==""){
+        alert("Please enter your card number");
+    }
+    
+    else if (String(cardnum).length < 16){
+        alert("Please make sure your card number is accurate");
+    }
+    
+    else{
+        validateCvvDetails();
+    }
+} 
+
+//Validate pin details and give alerts if invalid input is entered
+function validateCvvDetails(){
+    var cvv;
+    
+    cvv= document.getElementById("cvv").value;
+    
+    if (cvv ==""){
+        alert("Please enter your CVV number");
+    }
+    
+    else if (String(cvv).length < 3){
+        alert("Please make sure your CVV number is accurate");
+    }
+    
+    else{
+        validatePinDetails();
+    }
+} 
+
+//Validate pin details and give alerts if invalid input is entered
 function validatePinDetails(){
     var pin;
     

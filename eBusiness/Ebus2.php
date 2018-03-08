@@ -27,11 +27,19 @@ session_start();
           
           <!--Creatubg labels and text fields for user name/email/ and pin -->
             <label for="user_name">Name:
-            <input type="text" id="user_name" name="user_name" placeholder="Name">
+            <input type="text" id="user_name" name="user_name" placeholder="Name" maxlength="30">
             </label>
             <br/>
             <label for="user_email">Email:
-            <input type="text" id="user_email" name="user_email" placeholder="Email">
+            <input type="text" id="user_email" name="user_email" placeholder="Email" maxlength="30">
+            </label>
+            <br/>
+            <label for="card_number">Card Number:
+            <input type="number" id="card_number" name="card_number" placeholder="Card Number" maxlength="16">
+            </label>
+            <br/>
+            <label for="cvv">CVV:
+            <input type="number" id="cvv" name="cvv" placeholder="CVV" maxlength="3">
             </label>
             <br/>
             <label for="user_pin">PIN:

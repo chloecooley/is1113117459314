@@ -56,26 +56,26 @@ session_start();
             <br/>
             <label for=subtotal>
                 Sub Total
-                <input type="text" id="subtotal" name='subtotal' value="0.00"   readonly/>
+                <input type="text" id="subtotal" name='subtotal' value="0.00" maxlength="5" readonly/>
             </label>
             
            <br/>
             <label for=discount>
                 Discount
-                <input type="text" id="discount" name='discount' value="0.00"  readonly/>
+                <input type="text" id="discount" name='discount' value="0.00" maxlength="5" readonly/>
             </label>
             
             <br/>
             <label for=vat>
                 VAT
-                <input type="text" id="vat" name='vat' value="0.00"  readonly/>
+                <input type="text" id="vat" name='vat' value="0.00"  maxlength="5" readonly/>
             </label>
             
             <br/>
             <br/>
             <label for="total">
                 Total
-                <input type="text" id="total" name='total' value="0.00" readonly/>
+                <input type="text" id="total" name='total' value="0.00" maxlength="5" readonly/>
             </label>
             <br/>
             <!--Enusre that btnProceed is disabled until Calculate Costs is clicked-->

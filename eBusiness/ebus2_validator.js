@@ -1,7 +1,7 @@
 /* global $ */
 
 function validateDetails(){
-    
+  //This will check the name function which will then check the next function and so on until all functions have been checked
     validateNameDetails();
     
 }
@@ -34,8 +34,8 @@ function validateEmailDetails(){
         alert("Please enter your email");
     }
     
-    else if (String(email).length <5){
-        alert("Please make sure your email is correct.");
+    else if (String(email).length <2){
+        alert("Please make sure your full email is entered");
     }
     
     else{
@@ -54,7 +54,7 @@ function validateCardDetails(){
     }
     
     else if (String(cardnum).length < 16){
-        alert("Please make sure your card number is accurate");
+        alert("Please make sure your full card number is entered");
     }
     
     else{
@@ -73,7 +73,7 @@ function validateCvvDetails(){
     }
     
     else if (String(cvv).length < 3){
-        alert("Please make sure your CVV number is accurate");
+        alert("Please make sure your full CVV number is entered");
     }
     
     else{
@@ -92,7 +92,7 @@ function validatePinDetails(){
     }
     
     else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate");
+        alert("Please make sure your 4 digit PIN is entered");
     }
     
     else{
